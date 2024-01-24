@@ -3,7 +3,6 @@
 
 
 def top_students(mongo_collection):
-    # sourcery skip: inline-immediately-returned-variable
     """Returns all students sorted by average score"""
     top_student = mongo_collection.aggregate(
         [
