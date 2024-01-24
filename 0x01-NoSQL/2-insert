@@ -1,0 +1,2 @@
+// insert
+db.$1.insert(name:'Holberton school')
